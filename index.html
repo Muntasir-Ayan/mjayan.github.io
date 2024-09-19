@@ -198,7 +198,7 @@
 			            
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
-			            <p><a href="https://drive.google.com/file/d/1tWSpUoS0isdEEg-UkSKFxYYOJJMvuu87/view?usp=sharing" class="btn btn-primary py-3 px-4">Resume</a> 
+			            <p><a id='link-1' href="#" class="btn btn-primary py-3 px-4">Resume</a> 
 							<a href="research.html" class="btn btn-white py-3 px-4">Research Work</a></p>
 						<br>
 
@@ -325,7 +325,7 @@
             <p>Have a strong interest in machine learning, deep learning, and data analysis, focusing on extracting insights and building intelligent systems. And also passionate about software engineering, alway try to develop efficient, scalable solutions for complex problems.</p>
 			<div class="d-flex justify-content-center align-items-center">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://drive.google.com/file/d/1tWSpUoS0isdEEg-UkSKFxYYOJJMvuu87/view?usp=sharing" class="btn btn-primary py-4 px-5" download>Download CV</a></p>
+    				<p><a id='link-1' href="#" class="btn btn-primary py-4 px-5" download>Download CV</a></p>
     			</div>
     		</div>
           </div>
@@ -609,7 +609,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1tWSpUoS0isdEEg-UkSKFxYYOJJMvuu87/view?usp=sharing">Resume</a></p>
+	            <p><a id='link-1' href="#">Resume</a></p>
 	          </div>
           </div>
 
@@ -655,6 +655,13 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <script>
+    // Declare the dynamic link URL
+    var dynamicLink = "https://drive.google.com/drive/folders/1PfYDW9pscoDbbPOGmz0RUhe_CBqJGPfo?usp=drive_link";
+
+    // Apply the dynamic link to multiple places
+    document.getElementById("link-1").href = dynamicLink;
+  </script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
